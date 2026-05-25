@@ -1,0 +1,44 @@
+# CS50 / C compilation outputs
+a.out
+*.o
+*.out
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+
+# Python cache (if used later in CS50)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Linux temporary files
+*~
+
+# CS50 IDE / Cloud9 temporary files
+.c9/
+
+# Logs
+*.log
+
+# Build directories
+build/
+dist/
+
+# Scratch / temporary files
+*.tmp
+
