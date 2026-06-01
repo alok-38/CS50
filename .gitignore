@@ -1,44 +1,48 @@
-# CS50 / C compilation outputs
-a.out
+# =========================
+# CS50 / C compilation output
+# =========================
 *.o
 *.out
-
-# Executables
 *.exe
-*.out
-*.app
-
-# Debug files
 *.dSYM/
+a.out
+hello
+world
+main
 
-# Python cache (if used later in CS50)
+# =========================
+# Make artifacts
+# =========================
+Makefile.bak
+
+# =========================
+# CS50 tools / Python cache
+# =========================
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Environment variables
-.env
-
-# VS Code settings (optional)
-.vscode/
-
-# Mac system files
+# =========================
+# System / editor files
+# =========================
 .DS_Store
-
-# Linux temporary files
+Thumbs.db
+*.swp
+*.swo
+*.swn
 *~
 
-# CS50 IDE / Cloud9 temporary files
-.c9/
-
-# Logs
-*.log
-
-# Build directories
-build/
-dist/
-
-# Scratch / temporary files
+# Vim / nano backups
+*.bak
 *.tmp
 
+# =========================
+# CS50 specific (optional safety)
+# =========================
+check50_output/
+style50_output/
+
+# =========================
+# Logs / runtime files
+# =========================
+*.log
