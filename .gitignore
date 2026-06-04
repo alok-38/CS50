@@ -46,3 +46,13 @@ style50_output/
 # Logs / runtime files
 # =========================
 *.log
+
+# MSVC build outputs
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exe
+*.dll
+*.lib
+*.exp
